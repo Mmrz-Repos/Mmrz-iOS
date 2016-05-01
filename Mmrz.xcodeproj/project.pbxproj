@@ -12,6 +12,7 @@
 		3DE536551CD663560069DC69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE536531CD663560069DC69 /* Main.storyboard */; };
 		3DE536571CD663560069DC69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE536561CD663560069DC69 /* Assets.xcassets */; };
 		3DE5365A1CD663560069DC69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE536581CD663560069DC69 /* LaunchScreen.storyboard */; };
+		3DE536621CD6645D0069DC69 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DE536611CD6645D0069DC69 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3DE536561CD663560069DC69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DE536591CD663560069DC69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DE5365B1CD663560069DC69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE536611CD6645D0069DC69 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		3DE5364E1CD663560069DC69 /* Mmrz */ = {
 			isa = PBXGroup;
 			children = (
+				3DE536611CD6645D0069DC69 /* Default-568h@2x.png */,
 				3DE5364F1CD663560069DC69 /* AppDelegate.swift */,
 				3DE536511CD663560069DC69 /* ViewController.swift */,
 				3DE536531CD663560069DC69 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE5365A1CD663560069DC69 /* LaunchScreen.storyboard in Resources */,
+				3DE536621CD6645D0069DC69 /* Default-568h@2x.png in Resources */,
 				3DE536571CD663560069DC69 /* Assets.xcassets in Resources */,
 				3DE536551CD663560069DC69 /* Main.storyboard in Resources */,
 			);
@@ -248,6 +252,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mmrz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.zhanglintc.Mmrz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -259,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Mmrz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.zhanglintc.Mmrz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +290,7 @@
 				3DE536601CD663560069DC69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
